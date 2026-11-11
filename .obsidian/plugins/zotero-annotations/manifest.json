@@ -1,0 +1,10 @@
+{
+  "id": "zotero-annotations",
+  "name": "Zotero Annotations",
+  "version": "1.1.0",
+  "minAppVersion": "1.14.4",
+  "description": "Show the Zotero annotations of the paper under the cursor in a sidebar, and keep literature notes in sync with Zotero notes, in both directions.",
+  "author": "Benjamin Piwowarski",
+  "authorUrl": "https://github.com/bpiwowar",
+  "isDesktopOnly": false
+}
