@@ -6,12 +6,24 @@
 **Autorzy:** Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera
 
 ## Definitions
-## Important
 
-> <span style="color: #FFD400;">“Interpretability: It is defined as the ability to explain or to provide the meaning in understandable terms to a human.” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=4&annotation=YKAK5T9S)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 4)</span>
+> <span style="color: #F19837;">“Interpretability: It is defined as the ability to explain or to provide the meaning in understandable terms to a human.” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=4&annotation=YKAK5T9S)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 4)</span>
 
 focus on human understanding, so models with to much features for example should also count
 
+
+> <span style="color: #F19837;">“Explainability: Explainability is associated with the notion of explanation as an interface between humans and a decision maker that is, at the same time, both an accurate proxy of the decision maker and comprehensible to humans” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=4&annotation=6V44KRQC)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 4)</span>
+
+
+
+> <span style="color: #F19837;">“Transparency: A model is considered to be transparent if by itself it is understandable. Since a model can feature different degrees of understandability, transparent models in Section 3 are divided into three categories: simulatable models, decomposable models and algorithmically transparent models” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=4&annotation=Z63PUEVN)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 4)</span>
+
+
+
+> <span style="color: #F19837;">“Given an audience, an explainable Artificial Intelligence is one that produces details or reasons to make its functioning clear or easy to understand.” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=4&annotation=UJZ6958M)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 4)</span>
+
+
+## Important
 
 > <span style="color: #FFD400;">“First, the details or the reasons used to explain, are completely dependent of the audience to which they are presented. Second, whether the explanation has left the concept clear or easy to understand also depends completely on the audience.” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=4&annotation=Z7NJNLP9)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 4)</span>
 
@@ -57,24 +69,19 @@ indeed
 
 ## Doubts
 
-> <span style="color: #FF6666;">“the authors formulate the rule extraction problem as a multi-constrained optimiza- tion” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=14&annotation=6B5SSGLF)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 14)</span>
-
-
-
-> <span style="color: #FF6666;">“In Big Data fusion (Fig. 13.d), local models are learned on a split of the original data sources, each submitted to a Worker node in charge of performing this learning process (Map task). Then, a Reduce node (or several Reduce nodes, depending on the application) combines the outputs produced by each Map task. Therefore, Big Data fusion can be conceived as a means to distribute the complexity of learning a ML model over a pool of Worker nodes, wherein the strategy to design how information/models are fused together between the Map and the Reduce tasks is what defines the quality of the finally generated outcome [413].” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=25&annotation=EMHEFZ8Z)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 25)</span>
-
-Slicing big data into smaller (essayer to impreter) chunks and then combining the results into a group of models responsible for different part of a whole problem. Maybe even few models on different sets of features
-
-## Ideas
-
-> <span style="color: #A28AE5;">“n general, humans are reticent to adopt techniques that are not directly interpretable, tractable and trustworthy” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=2&annotation=QFBLSXLE)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 2)</span>
+> <span style="color: #FF6666;">“n general, humans are reticent to adopt techniques that are not directly interpretable, tractable and trustworthy” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=2&annotation=QFBLSXLE)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 2)</span>
 
 I think this has changed over the last 6 years, given the current level of public trust in LLMs. As people come to trust "black-box" algorithms more, does the need for XAI (Explainable AI) increase or decrease?
 
+## Ideas
 
-> <span style="color: #A28AE5;">“For instance, [56] presents a simple distillation method called Interpretable Mimic Learning to extract an interpretable model by means of gradient boosting trees.” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=15&annotation=V2CWDCFD)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 15)</span>
+> <span style="color: #A28AE5;">“the authors formulate the rule extraction problem as a multi-constrained optimiza- tion” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=14&annotation=6B5SSGLF)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 14)</span>
 
-Are gradient boosting trees interpretable?
+
+
+> <span style="color: #A28AE5;">“In Big Data fusion (Fig. 13.d), local models are learned on a split of the original data sources, each submitted to a Worker node in charge of performing this learning process (Map task). Then, a Reduce node (or several Reduce nodes, depending on the application) combines the outputs produced by each Map task. Therefore, Big Data fusion can be conceived as a means to distribute the complexity of learning a ML model over a pool of Worker nodes, wherein the strategy to design how information/models are fused together between the Map and the Reduce tasks is what defines the quality of the finally generated outcome [413].” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=25&annotation=EMHEFZ8Z)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 25)</span>
+
+Slicing big data into smaller (essayer to impreter) chunks and then combining the results into a group of models responsible for different part of a whole problem. Maybe even few models on different sets of features
 
 ## Articles
 
@@ -88,3 +95,7 @@ it seems like a good source of information on explainability metrics
 Interesting article about objectively convincing explanations
 
 ## I don't understand
+
+> <span style="color: #E56EEE;">“For instance, [56] presents a simple distillation method called Interpretable Mimic Learning to extract an interpretable model by means of gradient boosting trees.” ([PDF](zotero://open-pdf/library/items/H9ZYSN5I?page=15&annotation=V2CWDCFD)) (Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gil-Lopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera, 1590962400000, p. 15)</span>
+
+Are gradient boosting trees interpretable?

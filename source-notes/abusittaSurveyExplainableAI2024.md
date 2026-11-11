@@ -12,7 +12,11 @@
 nice, easy to understand definition
 
 
-> <span style="color: #F19837;">“Decomposability. Decomposability is testing interpretability with respect to a model’s sub-components (Lu, Lee, Kim, & Danks, 2019; Slack, Friedler, Scheidegger, & Roy, 2019). For example, consider a DT , whose nodes correspond to understood factors. The prediction of a DT can be easily explained in terms of what decisions are made at the tree’s various nodes.  Algorithmic Transparency. A machine learning algorithm is considered explainable if its decisions are explainable by humans (Ahmad, Eckert, & Teredesai, 2018; Peng et al., 2022). In other words, it consists of preferred properties that can be understood by a human. To this end, the algorithm should rely on mathematical techniques and tools to provide proof and to make the model easy to understand (Peng et al., 2022). Examples of algorithmic transparency are logistic/linear models and Bayesian models.” ([PDF](zotero://open-pdf/library/items/IZHZQX4L?page=7&annotation=UQM27J8Y)) (Adel Abusitta, Miles Q. Li, Benjamin C. M. Fung, 1733007600000, p. 7)</span>
+> <span style="color: #F19837;">“Decomposability. Decomposability is testing interpretability with respect to a model’s sub-components (Lu, Lee, Kim, & Danks, 2019; Slack, Friedler, Scheidegger, & Roy, 2019). For example, consider a DT , whose nodes correspond to understood factors. The prediction of a DT can be easily explained in terms of what decisions are made at the tree’s various nodes.” ([PDF](zotero://open-pdf/library/items/IZHZQX4L?page=7&annotation=23H2RUMY)) (Adel Abusitta, Miles Q. Li, Benjamin C. M. Fung, 1733007600000, p. 7)</span>
+
+
+
+> <span style="color: #F19837;">“Algorithmic Transparency. A machine learning algorithm is considered explainable if its decisions are explainable by humans (Ahmad, Eckert, & Teredesai, 2018; Peng et al., 2022). In other words, it consists of preferred properties that can be understood by a human. To this end, the algorithm should rely on mathematical techniques and tools to provide proof and to make the model easy to understand (Peng et al., 2022). Examples of algorithmic transparency are logistic/linear models and Bayesian models.” ([PDF](zotero://open-pdf/library/items/IZHZQX4L?page=7&annotation=VNR9S9ED)) (Adel Abusitta, Miles Q. Li, Benjamin C. M. Fung, 1733007600000, p. 7)</span>
 
 
 ## Important

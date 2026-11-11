@@ -67,7 +67,7 @@
 {% endfor %}
 ## I don't understand
 
-{%- for a in annotations | filterby("colorCategory", "contains", "Pink") %}
+{%- for a in annotations | filterby("colorCategory", "contains", "Magenta") %}
 {% if a.annotatedText %}
 > <span style="color: #E56EEE;">“{{a.annotatedText}}” ([PDF](zotero://open-pdf/library/items/{{a.attachment.itemKey}}?page={{a.page}}&annotation={{a.id}})) ({{authors}}, {{date}}, p. {{a.page}})</span>
 {%- endif %}
